@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en la Vista de Home View Debe de renderizar correctamente HomeView y mostrar el nombre de usuario  1`] = `
+<div class="row p-1">
+  <div class="col d-flex justify-content-end">
+    <div class="px-2"><a class="text-dark mr-3">Bienvenido: <span class="text-uppercase">jorge</span></a><br><button class="btn btn-secondary mt-2 text-uppercase"><i class="fa-solid fa-arrow-left"></i> Logout</button></div>
+  </div>
+</div>
+<div class="container mt-2 p-2 d-flex justify-content-center animate__animated animate__fadeInDown"><img class="p-2">
+  <div class="mt-5">
+    <h1>Servicios de Audio</h1>
+  </div>
+</div>
+<div class="container d-flex justify-content-center">
+  <div class="col-lg-6 col-sm-12 border border-dark p-5" style="border-radius: 20px; background-color: rgb(241, 250, 238);">
+    <h3 class="text-center">¿Qué Desea Hacer?</h3><button class="filter btn btn-secondary mt-3" style="border-radius: 10px;"> Filtros de Calidad</button><button class="tag btn btn-secondary mt-3 ml-2" style="border-radius: 10px;"> Etiquetar Audios</button>
+  </div>
+</div>
+`;

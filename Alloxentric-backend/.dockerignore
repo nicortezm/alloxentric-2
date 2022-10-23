@@ -1,0 +1,20 @@
+.dockerignore
+.git/
+.gitmodules
+.gitignore
+.pre-commit-config.yaml
+docker-compose.yml
+Makefile
+README.md
+Dockerfile
+__pycache__/
+.vscode/
+.env
+*.env
+VENV/
+logs/
+
+# Byte-compiled / optimized / DLL files
+*/__pycache__/
+*.py[cod]
+*$py.class

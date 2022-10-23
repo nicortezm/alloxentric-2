@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en la Vista de Filtros Debe de Mostrase Correctamente la vista FilterView 1`] = `
+<div class="row p-1">
+  <div class="col d-flex justify-content-between">
+    <div class="px-2"><a class="text-uppercase text-dark" style="cursor: pointer;"><i class="fa-solid fa-angle-left"></i> Volver</a></div>
+    <div class="px-2"><a class="text-dark mr-3">Bienvenido: <span class="text-uppercase">jorge</span></a><br><button class="btn btn-secondary mt-2 text-uppercase"><i class="fa-solid fa-arrow-left"></i> Logout</button></div>
+  </div>
+</div>
+<div class="container mt-2 p-2 d-flex justify-content-center animate__animated animate__fadeInDown"><img class="p-2">
+  <div class="mt-5">
+    <h1>Servicios de Audio</h1>
+  </div>
+</div>
+<div class="container d-flex justify-content-center animate__animated animate__fadeIn">
+  <div id="fileUpload" class="card p-3 shadow-sm border"><input type="file" id="file" class="file"></div>
+</div>
+<div class="container d-flex justify-content-center animate__animated animate__fadeInLeft">
+  <div id="calidad" class="col-4-sm p-1 border mt-4">
+    <h5 class="p-2"><b>Reglas de Calidad</b></h5>
+    <table class="table table-md table-borderless">
+      <tr>
+        <th class="text-left" scope="col">FILTRO</th>
+        <th scope="col ">RESULTADO</th>
+        <th scope="col ">DETALLES</th>
+      </tr>
+      <tr>
+        <th class="text-left h6" scope="col"><input type="checkbox" id="silencio_total"> Silencio Total </th>
+        <th scope="col">
+          <!--v-if-->
+        </th>
+        <th scope="col">
+          <!--v-if-->
+        </th>
+      </tr>
+      <tr>
+        <th class="text-left h6" scope="col"><input type="checkbox" id="silencio_final"> Silencio Final </th>
+        <th scope="col">
+          <!--v-if-->
+        </th>
+        <th scope="col">
+          <!--v-if-->
+        </th>
+      </tr>
+      <tr>
+        <th class="text-left h6" scope="col"><input type="checkbox" id="silencio_inicial"> Silencio Inicial </th>
+        <th scope="col">
+          <!--v-if-->
+        </th>
+        <th scope="col">
+          <!--v-if-->
+        </th>
+      </tr>
+      <tr>
+        <th class="text-left h6" scope="col"><input type="checkbox" id="noise"> Ruido </th>
+        <th scope="col">
+          <!--v-if-->
+        </th>
+        <th scope="col">
+          <!--v-if-->
+        </th>
+      </tr>
+    </table>
+    <!--v-if-->
+  </div>
+</div>
+`;
