@@ -7,7 +7,7 @@ Para ejecutar el sistema se deben crear los contenedores entrando a cada una de 
 ```
 
 
-## Paginas del sistema
+## URLs del sistema
 
 - http://localhost:9000/ - Frontend Vue3
 
