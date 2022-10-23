@@ -1,6 +1,6 @@
 ## Ejecución
 
-Para ejecutar el sistema se deben crear los contenedores entrando a cada una de las carpetas
+Para ejecutar el sistema se deben crear los contenedores entrando a cada una de las carpetas, Stack, Backend y Frontend
 
 ```bash
   docker-compose up -d
